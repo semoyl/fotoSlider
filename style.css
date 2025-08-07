@@ -35,7 +35,7 @@ body{
   opacity: 0.2;
   background-image: url(./img/download.png);
   background-repeat: repeat;
-  background-size: 200px 200px; /* Tamanho + espaçamento */
+  background-size: 200px 200px;
 }
 
 
