@@ -33,9 +33,9 @@ body{
   height: 100vh;
   z-index: -1;
   opacity: 0.2;
-  background-image: url(./img/download.png);
+  background-image: url(./img/tenebris.png);
   background-repeat: repeat;
-  background-size: 200px 200px;
+  background-size: 250px 250px;
 }
 
 
