@@ -1,8 +1,16 @@
+@import url(./font/Pastor\ of\ Muppets.TTF);
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 a{
     text-decoration: none;
@@ -13,6 +21,25 @@ ul, ol, li{
     list-style: none;
 }
 
+body{
+  background-color: #38693c;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0.2;
+  background-image: url(./img/download.png);
+  background-repeat: repeat;
+  background-size: 200px 200px; /* Tamanho + espaçamento */
+}
+
+
+
 .slider-container {
   display: flex;
   align-items: center;
@@ -21,30 +48,50 @@ ul, ol, li{
 }
 
 .slider {
-  width: 600px;
+  width: 80vw;
+  height: 100%;
   text-align: center;
+  background-color: #b9f0b7;
+  border-radius:50px;
+  border-color: #205026;
+  border-width: 10px;
 }
 
 .slider img {
   width: 100%;
-  height: 300px;
+  height: 75vh;
   object-fit: cover;
+  border-radius: 60px;
+  padding: 40px;
+  border-color: #205026;
+  border-width: 5px;
 }
 
 .slider .data {
+  color: #205026;
+  font-size: 64px;
   font-weight: bold;
   margin: 10px 0 5px;
+  font-family: "Pirata One", system-ui;
+  font-style: normal;
 }
 
 .slider .descricao {
-  font-size: 14px;
-  color: #333;
+   color: #205026;
+   font-size: 48px;
+   margin-bottom: 30px;
+   font-family: "Pastor of Muppets", sans-serif;
+   font-weight: 400;
+   font-style: normal;
 }
 
 .prev-button,
 .next-button {
-  background-color: beige;
+  background-color: #ffffff;
   border: none;
   cursor: pointer;
   height: 50px;
+  width: 70px;
+  border-radius: 20px;
+  margin: 20px;
 }
