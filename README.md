@@ -1,6 +1,6 @@
 # Slider de Fotos de Lembranças do SENAI
 
-![](./img/preview-slider-senai.png)
+![](./img/print.png)
 
 ---
 
