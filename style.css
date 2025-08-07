@@ -53,8 +53,8 @@ body{
   text-align: center;
   background-color: #b9f0b7;
   border-radius:50px;
-  border-color: #205026;
-  border-width: 10px;
+  border: 10px solid #205026;
+  transition: 0.5;
 }
 
 .slider img {
@@ -63,8 +63,12 @@ body{
   object-fit: cover;
   border-radius: 60px;
   padding: 40px;
-  border-color: #205026;
-  border-width: 5px;
+
+  opacity: 0;
+  position: absolute;  /* para sobrepor as imagens */
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .slider .data {
